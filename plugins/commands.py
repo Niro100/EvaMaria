@@ -19,13 +19,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('NFLK Updates ✅', url=f'http://t.me/NFLK_Updates')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates')
+            InlineKeyboardButton('Search කරන්න 🔎', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('NFLK JOY 🔥', url='https://t.me/nflkjoy_bot')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('Help 🆘️', callback_data='help'),
+            InlineKeyboardButton('About ℹ️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -46,7 +46,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🔥 Join Updates Channel 🔥", url=invite_link.invite_link
                 )
             ]
         ]
@@ -55,20 +55,20 @@ async def start(client, message):
             btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**NFLK Bot භාවිතා කිරීම සඳහා අපගේ Updates Channel එකට Join වී සිටින්න 👇**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('NFLK Updates ✅', url=f'http://t.me/NFLK_Updates')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates')
+            InlineKeyboardButton('Search කරන්න 🔎', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('NFLK JOY 🔥', url='https://t.me/nflkjoy_bot')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('Help 🆘️', callback_data='help'),
+            InlineKeyboardButton('About ℹ️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -80,7 +80,7 @@ async def start(client, message):
         if not await db.is_user_exist(message.from_user.id):
             await db.add_user(message.from_user.id, message.from_user.first_name)
         return
-    file_id = message.command[1]
+    file_id = message.command[1]lllllllllllllllll)ll)
     files = (await get_file_details(file_id))[0]
     title = files.file_name
     size=get_size(files.file_size)
