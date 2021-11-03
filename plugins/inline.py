@@ -58,9 +58,9 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"{emoji.FILE_FOLDER} Results - {total}"
+        switch_pm_text = f"{emoji.FILE_FOLDER} අවසානයට Update කල - {total}"
         if string:
-            switch_pm_text += f" for {string}"
+            switch_pm_text += f" Files {string}"
         try:
             await query.answer(results=results,
                            is_personal = True,
@@ -77,9 +77,9 @@ async def answer(bot, query):
                            switch_pm_text=str(e)[:63],
                            switch_pm_parameter="error")
     else:
-        switch_pm_text = f'{emoji.CROSS_MARK} No results'
+        switch_pm_text = f'{emoji.CROSS_MARK} Type කරපු එක වැරදී හෝ එහෙම එකක්'
         if string:
-            switch_pm_text += f' for "{string}"'
+            switch_pm_text += f' නොමැත "{string}"'
 
         await query.answer(results=[],
                            is_personal = True,
