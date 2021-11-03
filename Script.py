@@ -14,11 +14,14 @@ class script(object):
 ✯ Server: Heroku
 ✯ Status: [ Alive ✅ ]"""
     SOURCE_TXT = """<b>Support Team:</b>
-- ඔබට NFLK Bot සම්බන්ධව යම්කිසි ගැටලුවක් ඇත්නම් @NFLK_Support_Bot හරහා අපව සම්බන්ධ කරගන්න. 
-- වැඩි විස්තර සඳහා /how command එක Bot එකට Send කරන්න.  
 
-<b>Bot Link 👇:</b>
-- <a href=https://t.me/share/url?url=t.me/NetflixLK_bot>NFLK Bot ❤️</a>"""
+- ඔබට NFLK Bot සම්බන්ධව යම්කිසි ගැටලුවක් ඇත්නම් @NFLK_Support_Bot හරහා අපව සම්බන්ධ කරගන්න. 
+
+- Bot Tutorial එක ලබාගැනීම සඳහා /how command එක Bot එකට Send කරන්න.  
+
+<b>Bot Link 🔗 👇:</b>
+
+- <a href=https://t.me/share/url?url=t.me/NetflixLK_bot>CLICK HERE TO SHARE ↗️</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
