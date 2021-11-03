@@ -18,18 +18,18 @@ class script(object):
 - <a href=https://t.me/NFLK_Updates>දැන්ම Join වෙන්න</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
+- Our Bots 👇
 
-<b>NOTE:</b>
-1. NFLK Bot should have admin privillage.
-2. only admins can add filters in a chat.
-3. alert buttons have a limit of 64 characters.
+<b>List:</b>
+1. @NFLKJoy_bot ✅
+2. @ModsLK_bot ✅
+3. @Pusthakalaya_Filter_Bot ✅
 
-<b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+<b>Our Partners:</b>
+• UseFul BotZ - <code>@UseFul_BotZ</code>
+• Tech Leaks - <code>@Tech_Leaks</code>
+• Bots LK 🇱🇰 - <code>@Bots_LK</code>
+• PuZZles - <code>@Puzzles_LK</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Eva Maria Supports both url and alert inline buttons.
