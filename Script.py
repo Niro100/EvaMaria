@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """කොහොමද {},
-මම තමයි <a href='https://t.me/NetflixLK_bot'>NFLK Bot</a>, මට පුලුවන් ඔයාට අවශ්‍ය Movies වගේම TV Series ලබා දෙන්න., TV Series ලබා ගැනීම සඳහා මාගෙ Menu එක භාවිතා කරන්න ⬇️"""
+මම <a href='https://t.me/NetflixLK_bot'>NFLK Bot!</a>, මේ හරහා ඔබට අවශ්‍ය Movies හා TV Series ලබා ගන්න ඔයාට පුලුවන්. TV Series ලබා ගැනීම සඳහා Main Menu එක භාවිතා කරන්න ⬇️"""
     HELP_TXT = """ඉතින් {}
 මේ තමයි මගෙ Help Menu එක 👇."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: NFLK Bot
@@ -11,7 +11,7 @@ class script(object):
 ✯ 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝚂𝚃𝙰𝚃𝚄𝚂: [ ✅ ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- ඔබගේ Request යොමු කිරීම සඳහා අප සමූහය වෙත යොමුවන්න 👇. 
+- ඔබගේ Request යොමු කිරීම සඳහා අපේ Group එක වෙත යොමුවන්න 👇. 
 - NFLK Support - @NFLK_Support   
 
 <b>⚡NFLK Updates⚡:</b>
@@ -90,11 +90,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ test
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """★ First Update 🔄 the Bot
+★ Then Select the First Letter Of your Desired Series. 
+★ Search According to IMDB names of Series. 
+★ Most Series names begin with the letter T.
+★ If You Have a Request, Join Our Group👉 @NFLK_Support
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
