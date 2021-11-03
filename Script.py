@@ -94,7 +94,7 @@ This module only works for my admins
 ★ Then Select the First Letter Of your Desired Series. 
 ★ Search According to IMDB names of Series. 
 ★ Most Series names begin with the letter T.
-★ If You Have a Request, Join Our Group👉 @NFLK_Support
+
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
