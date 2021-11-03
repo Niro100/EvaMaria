@@ -58,7 +58,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"{emoji.FILE_FOLDER} අවසානයට Update කල - {total}"
+        switch_pm_text = f"{emoji.FILE_FOLDER} අවසානයට Update කල Movies - {total}"
         if string:
             switch_pm_text += f" Files {string}"
         try:
