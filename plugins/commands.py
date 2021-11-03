@@ -24,7 +24,6 @@ async def start(client, message):
             InlineKeyboardButton('Updates ✅', url='https://t.me/NFLK_Updates'),
             InlineKeyboardButton('Support ✅ ', url='https://t.me/NFLK_Support')
             ],[
-            InlineKeyboardButton('Help 🆘️', callback_data='help'),
             InlineKeyboardButton('About ℹ️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -67,7 +66,6 @@ async def start(client, message):
             InlineKeyboardButton('Updates ✅', url='https://t.me/NFLK_Updates'),
             InlineKeyboardButton('Support ✅', url='https://t.me/NFLK_Support')
             ],[
-            InlineKeyboardButton('Help 🆘️', callback_data='help'),
             InlineKeyboardButton('About ℹ️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
