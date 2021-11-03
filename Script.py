@@ -1,6 +1,8 @@
 class script(object):
     START_TXT = """කොහොමද {}?
-මම <a href='https://t.me/NetflixLK_bot'>NFLK Bot!</a>, ඔයාට අවශ්‍ය Movies වගේම Tv Series හොයලා දෙන්නත් මට පුලුවන්"""
+
+මම <a href='https://t.me/NetflixLK_bot'>NFLK Bot!</a>, 
+ඔයාට අවශ්‍ය Movies වගේම Tv Series ඉක්මනින්ම හොයලා දෙන්නත් මට පුලුවන්"""
     HELP_TXT = """ඉතින් {}
 
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳z."""
