@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """කොහොමද {}?
+    START_TXT = """කොහොමද Bro {}?
 
 මම තමයි <a href='https://t.me/NetflixLK_bot'>NFLK Bot 😎</a>
  
